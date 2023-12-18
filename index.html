@@ -14,35 +14,35 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="">
+    <img class="absolute" src="./images/phone frame.png" alt="">
     <div class="main-container flex-center-center">
         <div class="inner-container flex">
             <div class="right flex-column">
-                <div class="top">
+                <div class="top relative">
                     <h1 id="questionNo">Question 3</h1>
                     <div class="tries-div flex">
                         <div id="tries1"></div>
                         <div id="tries2"></div>
                         <div id="tries3"></div>
                     </div>
+                    <div class="message-div">
+                        <p class="margin-0"><small id="questionProgress">Congratulations! moving on to next question</small></p>
+                    </div>
                 </div>
                 <div class="middle flex-column-center">
                     <p id="question" class="question">How many months do we have in a year?: </p>
                     <div class="input-icons column flex j-center">
                         <div class="flex gap-7px">
-                            <span class="material-symbols-outlined icon">
+                            <!-- <span class="material-symbols-outlined icon">
                                 done_all
-                            </span>
+                            </span> -->
                             <input type="text" id="answer" placeholder="Answer" class="inputStyle">
-                            <span class="material-symbols-outlined icon">
-                                <!-- done_all -->
+                            <!-- <span class="material-symbols-outlined icon">
                                 done_all
-                            </span>
+                            </span> -->
                         </div>
                         <button id="submit" class="btn">Submit</button>
-                    </div>
-                    <div class="message-div">
-                        <p><small id="questionProgress">Congratulations! moving on to next question</small></p>
                     </div>
                 </div>
                 <div class="bottom">

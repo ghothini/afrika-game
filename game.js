@@ -19,11 +19,11 @@ var questionPrompts = 1;
 var question, questionAnswer;
 // Levels array for holding level questions and their correct answers
 var levels = [{
-    question: 'What side of the hemisphere is South Afica?' ,
-    questionAnswer: 'Southern Hemisphere'
+    question: 'As part of the apartheid boycott, what nation was banned from international cricket from 1970 to 1992?' ,
+    questionAnswer: 'South Africa'
 }, {
-    question: 'What side of the hemisphere is South Afica?',
-    questionAnswer: 'Southern Hemisphere'
+    question: 'South Afica has how many official languages?',
+    questionAnswer: '11'
 }, {
     question: 'What side of the hemisphere is South Afica?',
     questionAnswer: 'Southern Hemisphere'
